@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+header {
+
+}
+
+header > img {
+
+}
+
+nav {
+
+}
+nav > a {
+
+}
+main {
+
+}
+
+main > div {
+
+
+}
+div > p:nth-of-type(1) {
+
+}
+div > p:nth-of-type(2) {
+
+}
+
+div > p:nth-of-type(3) {
+
+}
+div > div:nth-of-type(1) {
+    
+}
+
+div > div:nth-of-type(2) {
+
+}
+
+div > div:nth-of-type(2) > a:first-child {
+
+}
+div > div:nth-of-type(2) > a:last-child {
+
+}
+
+main > img {
+
+}
+
+footer {
+
+}
+
+footer > div {
+
+}
+
+footer > div > a {
+
+}
+
+footer > p {
+    
+}
