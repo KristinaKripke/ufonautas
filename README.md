@@ -6,12 +6,22 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Design: ###
+Design: https://www.pinterest.com/pin/464293042846052714/
 
 ## 🎯 Project features/goals
 
 - Github pages
 - Non-responsive design
+- Fixed screen width
+- Social icons (FontAwesome)
+- Google Fonts
+- favicon
+- advanced css selectors
+- copyright symbol
+- button: user select none
+- button: hover state
+- main nav: hover state
+- main nav: selected menu option
 
 ## 🧰 Getting Started
 
