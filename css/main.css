@@ -5,18 +5,13 @@
 body {
     font-family: 'Montserrat';
     flex-direction: column;
-    width: auto;
 }
 
-header,
-main,
-footer {
-    width: 800px;
-    margin: 0 calc(50% - 400px);
-}
 
 header {
-    display: inline;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
 }
 
 header > img {
@@ -44,13 +39,12 @@ nav > a:hover, a:active {
 main {
     display: flex;
     width: 100%;
-    justify-content: space-between;
     align-items: start;
-    
+    justify-content: center;
 }
 
 main > div {
-    width: 50%;
+    width: 40%;
 }
 div > p:nth-of-type(1) {
     font-size: 45px;
@@ -80,27 +74,35 @@ div > p:nth-of-type(3) {
     
 }
 .div2 {
-    border-radius: 20px;
-    text-decoration: none;
     text-transform: uppercase;
-    padding: 5px, 15px;
-    opacity: 0.5;
+    margin-top: 50px;
 }
 .div2 > a:nth-of-type(1) {
     color: azure;
     background-color: #55337a;
     margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.div2 > a:nth-of-type(1):hover {
+    opacity: 0.7;
 }
 
 .div2 > a:nth-of-type(2) {
     border-color: #55337a;
     border-style: solid;
     color: #55337a;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-decoration: none;
 }
-
+.div2 > a:nth-of-type(2):hover {
+    opacity: 0.7;
+}
 main > img {
     float: right;
-    width: 50%;
+    width: 40%;
 }
 footer {
 height: 90px;
@@ -128,4 +130,7 @@ footer > div {
 
 footer > p {
     float: right;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
 }
