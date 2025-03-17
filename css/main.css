@@ -3,12 +3,16 @@
 }
 
 body {
-    margin-left: 10%;
-    margin-top: 5%;
-    margin-right: 15%;
     font-family: 'Montserrat';
     flex-direction: column;
     width: auto;
+}
+
+header,
+main,
+footer {
+    width: 800px;
+    margin: 0 calc(50% - 400px);
 }
 
 header {
@@ -70,47 +74,28 @@ div > p:nth-of-type(2):after {
         left: 2px;
 }
 
-
 div > p:nth-of-type(3) {
     margin-top: 2px;
     font-size: 15px;
     
 }
 .div2 {
-    padding-top: 20px;
-}
-.div2 > a:nth-of-type(1) {
-    margin-top: 5%;
-    color: azure;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #55337a;
+    border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    border-radius: 20px;
-    margin-right: 20px;
-}
-.div2 > a:nth-of-type(1):hover {
+    padding: 5px, 15px;
     opacity: 0.5;
+}
+.div2 > a:nth-of-type(1) {
+    color: azure;
+    background-color: #55337a;
+    margin-right: 20px;
 }
 
 .div2 > a:nth-of-type(2) {
-    margin-top: 5%;
     border-color: #55337a;
     border-style: solid;
     color: #55337a;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 20px;
-}
-.div2 > a:nth-of-type(2):hover {
-    opacity: 0.5;
 }
 
 main > img {
@@ -131,23 +116,16 @@ footer > div {
     text-decoration: none;
     margin: 7px 2px;
     border-radius: 50%;
+    background: none;
     }
 .fa:hover {
     opacity: 0.5;
     }
-.fa-facebook {
-    background: none;
-}
-.fa-twitter {
-    background: none;
-}
+
 .fa-instagram {
-    background: none;
     margin-left: 5px;
 }
-.fa-linkedin {
-    background: none;
-}
+
 footer > p {
     float: right;
 }
